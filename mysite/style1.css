@@ -69,9 +69,9 @@ h1
 
 .navbar-brand 
 {
-	padding-right: 20px;
-	padding-left:  10px;
-	padding-top: 13px;
+	padding-right: 3%;
+	padding-left:  1%;
+	padding-top:0.5%;
 }
 
 .nav-item 
@@ -81,7 +81,7 @@ h1
 
 .dropdown-menu
 {
-	background: #000000;
+	background: crimson;
 }
 
 .dropdown-item a
@@ -89,11 +89,12 @@ h1
 	color: #ffffff;
 }
 
-.navbar-nav li a
+.dropdown-menu a:hover
 {
-	color: #ffffff;
-
+	background-color: #000000;
+	color: orange;
 }
+
 
 .navbar-nav li a:hover 
 {
@@ -102,57 +103,21 @@ h1
 	transition: all 0.5s ease-in-out;
 }
 
- .navbar
+.navbar
  {
  	background-color: rgba(0, 0, 0, 1);
  }
 
-.show-button
-{
-	padding: 30px; 
-	margin-top: 30px;
-}
-
-
-.btn-btn
-{
-	color: white;
-	border: 2px solid white;
-	padding: 10px 30px;
-	margin-right: 20px;
-	text-decoration: none;
-	border-radius: 20px;
-}
-
-.btn-btn:hover
-{
-	background-color:  #87CEEB;
-	transition: all 0.5s ease;
-	color: white;
-}
-
-
-.account
-{
-	position: absolute;
-	margin: auto;
-	top: 23%;
-	right: 3%;
-	/*margin-left: 90%;*/
-	padding: 18px;
-}
-
 
 .account button
 {
-	position: relative;
 	text-align: center;
-	width: 70px;
-	height: 30px;
+	width: 5em;
+	height: 2em;
 	background-color: #000;
 	font-size: 90%;
 	color: #15f4ee;
-	font-family: poppins; 
+	font-family: monteserrat; 
 	font-weight: 200;
 	border: 2px solid #15f4ee;
 	text-transform: uppercase;
@@ -162,18 +127,17 @@ h1
 
 .account button:hover{
 	cursor: pointer;
-	background-color: crimson;
+	background-color: #87CEEB;
 	color:  #fff;
-	box-shadow: 0 0 25px 0 crimson;
+	box-shadow: 0 0 25px 0 #87CEEB;
 }
 
 .swiper-container 
 { 
-      height: auto;
-      margin-top: 0%;
-      margin-left: auto;
-      margin-right: auto;
- }  
+	/*position: static;*/
+	height: 100%;
+	width: 100%;
+}  
 
  
 .swiper-slide 
@@ -208,10 +172,6 @@ h1
 	width: 100%;	 
 }
 
-.swiper2
-{
-	margin-top: 0%;
-}
 
 .swiper2 a
 {
@@ -239,11 +199,6 @@ h1
   	transform: translate(-50%, -50%);
 }
 
-section 
-{
-	margin: 0px;
-	padding: 0px;
-}
 
 #products
 {
