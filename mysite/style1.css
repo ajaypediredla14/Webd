@@ -304,9 +304,10 @@ h1
 
 .follow
 {
-	padding: 5px;
+	padding: 7px;
 	background:#fff;
 	margin:10px;
+	border-radius: 10px;
 }
 .contact-info .fa
 {
