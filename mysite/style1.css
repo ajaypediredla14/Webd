@@ -119,7 +119,7 @@ h1
 	color: #15f4ee;
 	font-family: monteserrat; 
 	font-weight: 200;
-	border: 1px solid #15f4ee;
+	border: 2px solid #15f4ee;
 	text-transform: uppercase;
 	border-radius: 10px;
 	transition: 0.5s;
@@ -131,6 +131,8 @@ h1
 	color:  #fff;
 	box-shadow: 0 0 25px 0 #87CEEB;`
 }
+
+
 
 @media only screen and (min-width: 360px) and (max-width: 640px) {
 	.nav-item 
@@ -155,6 +157,14 @@ h1
 		padding-right: 0px;
 		padding-left:  1%;
 		padding-top:0.5%;
+	}
+	.account button
+	{
+		font-size: 60%;
+	}
+	.swiper2 a
+	{
+		font-size: 10px;
 	}
 }
 
