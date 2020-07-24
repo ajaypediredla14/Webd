@@ -307,11 +307,19 @@ h1
 	padding: 7px;
 	background:#fff;
 	margin:10px;
+	color: #000;
 	border-radius: 10px;
 }
+
+.follow a{
+	color: #D02090 ;
+	font-size: 15px;
+	font-weight: 500px;
+}
+
 .contact-info .fa
 {
 	margin: 10px;
-	color: #FF00FF;
+	color: #D02090 ;
 	font-weight: bold;
 }
