@@ -108,6 +108,11 @@ h1
  	background-color: rgba(0, 0, 0, 1);
  }
 
+.btn-outline-info
+{
+	border-radius: 10px;
+}
+
 
 .account button
 {
@@ -119,9 +124,9 @@ h1
 	color: #15f4ee;
 	font-family: monteserrat; 
 	font-weight: 200;
-	border: 2px solid #15f4ee;
+	border: 1px solid #15f4ee;
 	text-transform: uppercase;
-	border-radius: 100px;
+	border-radius: 10px;
 	transition: 0.5s;
 }
 
@@ -129,8 +134,21 @@ h1
 	cursor: pointer;
 	background-color: #87CEEB;
 	color:  #fff;
-	box-shadow: 0 0 25px 0 #87CEEB;
+	box-shadow: 0 0 25px 0 #87CEEB;`
 }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+	.nav-item 
+	{
+		padding-right: 10px;
+	}
+	.btn-outline-info
+	{
+		border-radius: 5px;
+	}
+
+}
+
 
 .swiper-container 
 { 
@@ -139,7 +157,7 @@ h1
 	width: 100%;
 }  
 
- 
+
 .swiper-slide 
 {
       text-align: center;
@@ -223,9 +241,10 @@ h1
 #Contact h1::after
 {
 	content: '';
-	background:   #FF00FF;
+	background:  crimson;
 	display: block;
-	height: 3px;
+	height: 2px;
+	border-radius: 100%;
 	width: 175px;
 	margin: 15px auto 5px;
 }
@@ -252,6 +271,18 @@ h1
 {
 	color: #FF00FF;
 }
+
+.btn-btn-primary
+{
+	border-radius: 10px;
+	text-align: center;
+	font-size: 15px;
+	padding: 5px;
+	color: #fff;
+	background-color: crimson;
+
+}
+
 .follow
 {
 	padding: 5px;
