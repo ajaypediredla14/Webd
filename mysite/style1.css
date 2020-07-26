@@ -132,6 +132,10 @@ h1
 	box-shadow: 0 0 25px 0 #87CEEB;`
 }
 
+.size
+{
+	height: 80vh;
+}
 
 
 @media only screen and (min-width: 360px) and (max-width: 640px) {
@@ -165,6 +169,10 @@ h1
 	.swiper2 a
 	{
 		font-size: 10px;
+	}
+	.size
+	{
+		height: 100%;
 	}
 }
 

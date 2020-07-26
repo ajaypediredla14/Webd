@@ -4,101 +4,79 @@
 <head>
 	<title>GETME Online Store</title>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <meta http-equiv="X-UA-compatible" content="ie=edge">
-    <link rel="icon" type="icon" src="f.png">
-      <!-- <link rel="stylesheet" type="text/css" href="style1.css"> -->
-    <link rel="stylesheet" href=".\bootstrap-4.5.0-dist\css\bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="style1.css">
-	<!-- <script type="text/javascript" src="java.js"></script> -->
-	<link rel="stylesheet" href="./swiper-bundle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-compatible" content="ie=edge">
+  <link rel="icon" type="icon" src="f.png">
+  <!-- <link rel="stylesheet" type="text/css" href="style1.css"> -->
+  <link rel="stylesheet" href="./bootstrap-4.5.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <!-- <script type="text/javascript" src="java.js"></script> -->
+  <link rel="stylesheet" href="./swiper-bundle.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src=".\bootstrap-4.5.0-dist\js\bootstrap.min.js"></script>
+  <script src="./bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
 </head>
 <body crossorigin="anonymous" style="font-family: montserrat ;">
   <div class="container-fluid  mx-0 px-0 mt-1">
-  <nav class="navbar navbar-expand-sm navbar-dark">
-    <a class="navbar-brand" href="#">
-    <img class="logo d-inline-block align-top pt-2"  loading="lazy" src="f.png" width="45" height="45" alt="sorry">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <a class="navbar-brand" href="#">
+        <img class="logo d-inline-block align-top pt-2"  loading="lazy" src="f.png" width="45" height="45" alt="sorry">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav md-auto">
-      <li class="nav-item active mr-auto">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Contact">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Shop</a>
-      </li>
-           <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          More
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Electronics</a>
-          <a class="dropdown-item" href="#">Furniture</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Popular</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav md-auto">
+          <li class="nav-item active mr-auto">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Electronics</a>
+              <a class="dropdown-item" href="#">Furniture</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Popular</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="fa fa-shopping-cart"></i> Cart</a>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2 search" type="search" placeholder="Search" aria-label="Search" style="width: 400px;">
+          <button class="btn btn-outline-info my-sm-0" type="submit">Search</button>
+        </form>
+        <div class="account ml-auto">
+          <button id="login" class="mr-2">Login</button>
+          <button id="signup">Signup</button>
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="fa fa-shopping-cart"></i> Cart</a>
-      </li>
-    </ul>
-    <form class="form-inline">
-      <input class="form-control mr-sm-2 search" type="search" placeholder="Search" aria-label="Search" style="width: 400px;">
-      <button class="btn btn-outline-info my-sm-0" type="submit">Search</button>
-    </form>
-      <div class="account ml-auto">
-        <button id="login" class="mr-2">Login</button>
-        <button id="signup">Signup</button>
       </div>
+    </nav>
   </div>
-</nav>
-</div>
   <section class="my-0">
-  <div class="container-fluid mx-0 px-0 mt-1">
-	<div class="swiper-container swiper1">
-		<div class="swiper-wrapper">
-			<div class="swiper-slide swiper1"><img src="slide1.jpg" loading="lazy"></div>
-			<div class="swiper-slide swiper1"><img src="slide2.jpg" loading="lazy"></div>
-			<div class="swiper-slide swiper1"><img src="slide3.jpg" loading="lazy"></div>
-			<div class="swiper-slide swiper1"><img src="slide1.jpg" loading="lazy"></div>
-			<div class="swiper-slide swiper1"><img src="slide5.jpg" loading="lazy"></div>
-			<div class="swiper-slide swiper1"><img src="slide6.jpg" loading="lazy"></div>
-			<div class="swiper-slide swiper1"><img src="slide1.jpg" loading="lazy"></div>
-			<div class="swiper-slide swiper1"><img src="slide1.jpg" loading="lazy"></div>
-			<div class="swiper-slide swiper1"><img src="slide1.jpg" loading="lazy"></div>
-			<div class="swiper-slide swiper1"><img src="slide1.jpg" loading="lazy"></div>
-		</div>
-	</div>
-</div>
-</section>
-
-<section class="my-0">
-  <div class="container-fluid">
-  	<div id="products">
-  		<a href="">All Categories</a>
-  	</div>
-  <div class="swiper-container swiper2">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide swiper2" id="p0"><img src="cat1.jpg" loading="lazy"><a href="">Mens Fashion</a></div>
-      <div class="swiper-slide swiper2" id="p1"><img src="cat2.jpg" loading="lazy"><a href="">Womens Fashion</a></div>
-      <div class="swiper-slide swiper2" id="p2"><img src="cat3.jpg" loading="lazy"><a href="">Bags</a></div>
-      <div class="swiper-slide swiper2" id="p3"><img src="cat4.jpg" loading="lazy"><a href="">Kids Fashions</a></div>
-      <div class="swiper-slide swiper2" id="p4"><img src="cat5.jpg" loading="lazy"><a href="">Electronics</a></div>
-      <div class="swiper-slide swiper2" id="p5"><img src="cat6.jpg" loading="lazy"><a href="">Books</a></div>
-      <div class="swiper-slide swiper2" id="p6"><img src="cat7.jpg" loading="lazy"><a href="">Footwear</a></div>
-      <div class="swiper-slide swiper2" id="p7"><img src="cat8.jpg" loading="lazy"><a href="">Furniture</a></div>
-      <div class="swiper-slide swiper2" id="p8"><img src="cat9.jpg" loading="lazy"><a href="">Laptops</a></div>
-      <div class="swiper-slide swiper2" id="p9"><img src="cat10.jpg" loading="lazy"><a href="">Mobiles</a> </div>
+    <div class="container-fluid mx-0 px-0 mt-1 size">
+     <div class="swiper-container swiper1">
+      <div class="swiper-wrapper">
+       <div class="swiper-slide swiper1"><img src="slide1.jpg" loading="lazy"></div>
+       <div class="swiper-slide swiper1"><img src="slide2.jpg" loading="lazy"></div>
+       <div class="swiper-slide swiper1"><img src="slide3.jpg" loading="lazy"></div>
+       <div class="swiper-slide swiper1"><img src="slide1.jpg" loading="lazy"></div>
+       <div class="swiper-slide swiper1"><img src="slide5.jpg" loading="lazy"></div>
+       <div class="swiper-slide swiper1"><img src="slide6.jpg" loading="lazy"></div>
+       <div class="swiper-slide swiper1"><img src="slide1.jpg" loading="lazy"></div>
+       <div class="swiper-slide swiper1"><img src="slide1.jpg" loading="lazy"></div>
+       <div class="swiper-slide swiper1"><img src="slide1.jpg" loading="lazy"></div>
+       <div class="swiper-slide swiper1"><img src="slide1.jpg" loading="lazy"></div>
      </div>
    </div>
  </div>
@@ -106,25 +84,47 @@
 
 <section class="my-0">
   <div class="container-fluid">
+  	<div id="products">
+  		<a href="">All Categories</a>
+  	</div>
+    <div class="swiper-container swiper2">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper2" ><img id="p0" loading="lazy"><a id="h0" href="">Mens Fashion</a></div>
+        <div class="swiper-slide swiper2" ><img id="p1" loading="lazy"><a id="h1" href="">Womens Fashion</a></div>
+        <div class="swiper-slide swiper2" ><img id="p2" loading="lazy"><a id="h2" href="">Bags</a></div>
+        <div class="swiper-slide swiper2" ><img id="p3" loading="lazy"><a id="h3" href="">Kids Fashions</a></div>
+        <div class="swiper-slide swiper2" ><img id="p4" loading="lazy"><a id="h4" href="">Electronics</a></div>
+        <div class="swiper-slide swiper2" ><img id="p5" loading="lazy"><a id="h5" href="">Books</a></div>
+        <div class="swiper-slide swiper2" ><img id="p6" loading="lazy"><a id="h6" href="">Footwear</a></div>
+        <div class="swiper-slide swiper2" ><img id="p7" loading="lazy"><a id="h7" href="">Furniture</a></div>
+        <div class="swiper-slide swiper2" ><img id="p8" loading="lazy"><a id="h8" href="">Laptops</a></div>
+        <div class="swiper-slide swiper2" ><img id="p9" loading="lazy"><a id="h9" href="">Mobiles</a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="my-0">
+  <div class="container-fluid">
   	<div id="products"> 
   		<a href="">Products</a>
   	</div>
-  <div class="swiper-container swiper2">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide swiper2"><img src="cat1.jpg" loading="lazy"><a href="">Mens Fashion</a></div>
-      <div class="swiper-slide swiper2"><img src="cat2.jpg" loading="lazy"><a href="">Womens Fashion</a></div>
-      <div class="swiper-slide swiper2"><img src="cat3.jpg" loading="lazy"><a href="">Bags</a></div>
-      <div class="swiper-slide swiper2"><img src="cat4.jpg" loading="lazy"><a href="">Kids Fashions</a></div>
-      <div class="swiper-slide swiper2"><img src="cat5.jpg" loading="lazy"><a href="">Electronics</a></div>
-      <div class="swiper-slide swiper2"><img src="cat6.jpg" loading="lazy"><a href="">Books</a></div>
-      <div class="swiper-slide swiper2"><img src="cat7.jpg" loading="lazy"><a href="">Footwear</a></div>
-      <div class="swiper-slide swiper2"><img src="cat8.jpg" loading="lazy"><a href="">Furniture</a></div>
-      <div class="swiper-slide swiper2"><img src="cat9.jpg" loading="lazy"><a href="">Laptops</a></div>
-      <div class="swiper-slide swiper2"><img src="cat10.jpg" loading="lazy"><a href="">Mobiles</a>
+    <div class="swiper-container swiper2">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper2"><img src="cat1.jpg" loading="lazy"><a href="">Mens Fashion</a></div>
+        <div class="swiper-slide swiper2"><img src="cat2.jpg" loading="lazy"><a href="">Womens Fashion</a></div>
+        <div class="swiper-slide swiper2"><img src="cat3.jpg" loading="lazy"><a href="">Bags</a></div>
+        <div class="swiper-slide swiper2"><img src="cat4.jpg" loading="lazy"><a href="">Kids Fashions</a></div>
+        <div class="swiper-slide swiper2"><img src="cat5.jpg" loading="lazy"><a href="">Electronics</a></div>
+        <div class="swiper-slide swiper2"><img src="cat6.jpg" loading="lazy"><a href="">Books</a></div>
+        <div class="swiper-slide swiper2"><img src="cat7.jpg" loading="lazy"><a href="">Footwear</a></div>
+        <div class="swiper-slide swiper2"><img src="cat8.jpg" loading="lazy"><a href="">Furniture</a></div>
+        <div class="swiper-slide swiper2"><img src="cat9.jpg" loading="lazy"><a href="">Laptops</a></div>
+        <div class="swiper-slide swiper2"><img src="cat10.jpg" loading="lazy"><a href="">Mobiles</a>
+        </div>
+      </div>
     </div>
-   </div>
- </div>
-</div>
+  </div>
 </section>
 <section id="Contact">
   <div class="container-fluid">
@@ -148,54 +148,65 @@
         </form>
       </div>
       <div class="col-md-6 contact-info">
-            <div class="follow"><b>Address:</i></b><a href="https://goo.gl/maps/7c5MRBAT4MnMA1kc6" target="_blank"><i class="fa fa-map-marker"></i>JNU Road,NEW DELHI</a></div>
-          <div class="follow"><b>Email:</i></b></i> Ajay.pediredla.1818@gmail.com</div>
-          <div class="follow"><b>Mobile:</i></b></i> +91 9390181313</div>
-          <div class="follow"><b>Get Social Media:</i></b>
+        <div class="follow"><b>Address:</i></b><a href="https://goo.gl/maps/7c5MRBAT4MnMA1kc6" target="_blank"><i class="fa fa-map-marker"></i>JNU Road,NEW DELHI</a></div>
+        <div class="follow"><b>Email:</i></b></i> Ajay.pediredla.1818@gmail.com</div>
+        <div class="follow"><b>Mobile:</i></b></i> +91 9390181313</div>
+        <div class="follow"><b>Get Social Media:</i></b>
           <a href="https://www.facebook.com/ajay pediredla(ram)/" target="_blank"><i class="fa fa-facebook-f"></i>Ajay pediredla</a>
           <a href="https://www.instagram.com/__the__stranger__001__/" target="_blank"><i class="fa fa-instagram"></i>_a_simple_story_forever__</a>
-      </div>  
+        </div>  
       </div>
     </div>
-</section>
+  </section>
 
-	
-<!-- 	<script type="text/javascript">
-	function newcolor(){
-		for (var i=0;i<=10;i++) {
-			var y = Math.floor((Math.random()*10)+1);
-			console.log(y);
-			document.getElementById('p'+i).innerHTML+= <img src="cat${y}.jpg">;
-		}
-	}
-	</script> -->
-	<script src="./swiper.js"></script>
-  	<script type="text/javascript">
-  		var swiper = new Swiper('.swiper1', {
-  			autoplay: {
-  				delay: 2000,
-  			},
-  	  });  
-  	</script>
-  <script>
-    var swiper = new Swiper('.swiper2', {
-      slidesPerView: 8,
-      spaceBetween: 13, 
-      pagination: {
-        el: '.swiper-pagination',
+
+  <script type="text/javascript">
+    $("document").ready(function(){
+      var myShows = ['cat1.jpg', 'cat2.jpg', 'cat3.jpg', 'cat4.jpg', 'cat5.jpg', 'cat6.jpg', 'cat7.jpg', 'cat8.jpg', 'cat9.jpg', 'cat10.jpg'],
+        i= myShows.length,
+        pname = ['Mens Fashion','Womens Fashion','Bags','Kids Fashions','Electronics','Books','Footwear','Furniture','Laptops','Mobiles'],
+        index=0;
+        while(i--){
+          index = Math.floor(Math.random() * (i+1));
+          var ids = '#p'+i;
+          var show = myShows[index];
+          var catname = pname[index];
+          var hds = '#h'+i;
+          $(ids).attr("src", show);
+          $(hds).html(catname);
+           myShows.splice(index, 1);
+           pname.splice(index, 1);
+        }
+      });
+    </script>
+  <script src="./swiper.js"></script>
+  <script type="text/javascript">
+    var swiper = new Swiper('.swiper1', {
+     autoplay: {
+      delay: 2000,
+    },
+  });  
+</script>
+
+<script>
+  var swiper = new Swiper('.swiper2', {
+    slidesPerView: 8,
+    spaceBetween: 13, 
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 4,
+        spaceBetween: 3,
       },
-      breakpoints: {
-        320: {
-          slidesPerView: 4,
-          spaceBetween: 3,
-        },
-        1024: {
-          slidesPerView: 8,
-          spaceBetween: 13,
-        },
-      }
-    });
-  </script>
+      1024: {
+        slidesPerView: 8,
+        spaceBetween: 13,
+      },
+    }
+  });
+</script>
 
 </body>
 </html>
