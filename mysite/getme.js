@@ -1,4 +1,5 @@
 
+//function to generate randoms without duplicates...
 function randint(length) {
   randlist=[];
   for(var i = 0; i < length; i++){
@@ -13,6 +14,7 @@ function randint(length) {
   return randlist;
 } 
 
+//decalration of swiper items...
 var myshows = [{catimg: 'cat1.jpg', catname: 'Mens Fashion'},
                {catimg: 'cat2.jpg', catname: 'Womens Fashion'},
                {catimg: 'cat3.jpg', catname: 'Bags'},
@@ -24,10 +26,13 @@ var myshows = [{catimg: 'cat1.jpg', catname: 'Mens Fashion'},
                {catimg: 'cat9.jpg', catname: 'Laptops'},
                {catimg: 'cat10.jpg', catname: 'Mobiles'}];
 
+//jquery function to call randimg
 $(document).ready(function(){
 randimg(myshows);
 });
 
+
+//randimg function to generate random slides...
 function randimg(img){
     "use strict";
     var index=0,
