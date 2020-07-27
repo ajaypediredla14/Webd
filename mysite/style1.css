@@ -331,3 +331,31 @@ h1
 	color: #D02090 ;
 	font-weight: bold;
 }
+
+.view
+{
+	background: #121212;
+	padding-bottom: 20px;
+	color: white;
+	background-attachment: fixed;
+	margin-top: 5px;
+}
+
+.view i
+{
+	font-size: 35px;
+}
+
+.view-items h2
+{
+	font-weight: bold;
+	font-size: 30px;
+	padding-top: 8px;
+	color: darkorange;
+}
+
+.view p
+{
+	letter-spacing: 1px;
+	font-weight: bold;
+}
