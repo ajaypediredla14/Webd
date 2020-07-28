@@ -359,3 +359,9 @@ h1
 	letter-spacing: 1px;
 	font-weight: bold;
 }
+
+.alert
+{
+	color: red;
+	display: none;
+}

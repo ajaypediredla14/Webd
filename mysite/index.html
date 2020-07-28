@@ -130,21 +130,22 @@
     <h1>Get In Touch</h1>
     <div class="row">
       <div class="col-md-6">
-        <form class="contact form">
+        <form class="contact form" id="contact-form">
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Your Name">
+            <input type="text" class="form-control" placeholder="Your Name" id="name" required>
           </div>
           <div class="form-group">
-            <input type="number" class="form-control" placeholder="Mobile No.">
+            <input type="number" class="form-control" placeholder="Mobile No." id="phone" required>
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" placeholder="Email">
+            <input type="email" class="form-control" placeholder="Email" id="email" required>
           </div>
           <div class="form-group">
-            <textarea class="form-control" rows="5" placeholder="Message..."></textarea> 
+            <textarea class="form-control" rows="5" placeholder="Message..." id="message"></textarea> 
           </div>
-          <button class="btn-btn-primary">Send Message</button>
+          <button class="btn-btn-primary" type="submit" id="submit">Send Message</button>
         </form>
+        <div class="alert text-md-right pt-0">Your message has been sent !</div>
       </div>
       <div class="col-md-6 contact-info">
         <div class="follow"><b>Address:</i></b><a href="https://goo.gl/maps/7c5MRBAT4MnMA1kc6" target="_blank"><i class="fa fa-road"></i>JNU Road,NEW DELHI</a></div>
@@ -188,6 +189,12 @@
       </div>
     </div>
   </section>
+
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+  <script src="firebase.js"></script>
 
   <script src="./swiper.js"></script>
   <script type="text/javascript">
