@@ -51,7 +51,6 @@ function inputval(id){
 }
 
 //message to firebase
-
 function firebmessage(name ,phone ,email ,message){
 	var newref = messagesref.push();
     newref.set({

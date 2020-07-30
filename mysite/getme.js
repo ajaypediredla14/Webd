@@ -15,16 +15,16 @@ function randint(length) {
 } 
 
 //decalration of swiper items...
-var myshows = [{catimg: 'cat1.jpg', catname: 'Mens Fashion'},
-               {catimg: 'cat2.jpg', catname: 'Womens Fashion'},
-               {catimg: 'cat3.jpg', catname: 'Bags'},
-               {catimg: 'cat4.jpg', catname: 'Kids Fashions'},
-               {catimg: 'cat5.jpg', catname: 'Electronics'},
-               {catimg: 'cat6.jpg', catname: 'Books'},
-               {catimg: 'cat7.jpg', catname: 'Footwear'},
-               {catimg: 'cat8.jpg', catname: 'Furniture'},
-               {catimg: 'cat9.jpg', catname: 'Laptops'},
-               {catimg: 'cat10.jpg', catname: 'Mobiles'}];
+var myshows = [{catimg: 'pro1.jpg', catname: 'Nike Running Shoe',catprice: '$ 150'},
+               {catimg: 'pro2.jpg', catname: 'Air Casual Shoes',catprice: '$ 250'},
+               {catimg: 'pro3.jpg', catname: 'Nike Men\'s Dart',catprice: '$ 350'},
+               {catimg: 'pro4.jpg', catname: 'Handbag',catprice: '$ 450'},
+               {catimg: 'pro5.jpg', catname: 'Backpack',catprice: '$ 550'}, 
+               {catimg: 'pro6.jpg', catname: 'T-shirt misty Rose',catprice: '$ 650'},
+               {catimg: 'pro7.jpg', catname: 'Activity Tracker',catprice: '$ 750'},
+               {catimg: 'pro8.jpg', catname: 'White Keyboard',catprice: '$ 600'},
+               {catimg: 'pro9.jpg', catname: 'Formal Chair',catprice: '$ 8000'},
+               {catimg: 'pro10.jpg', catname: 'Echo Speakers',catprice: '$ 3000'}];
 
 //jquery function to call randimg
 $(document).ready(function(){
@@ -43,6 +43,7 @@ function randimg(img){
       var ele = myshows[index];
       $('#p'+i).attr("src", ele.catimg);
       $('#h'+i).html(ele.catname);
+      $('#pr'+i).html(ele.catprice);
     }
   }
 
